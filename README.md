@@ -2,7 +2,7 @@
 
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
+As an employer looking for candidates with experience building single-page applications I want to view a potential employee's deployed React portfolio of work samples so that I can assess whether they're a good candidate for an open position
 
 - What was your motivation?
 - Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
