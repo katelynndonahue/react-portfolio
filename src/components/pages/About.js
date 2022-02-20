@@ -3,14 +3,20 @@ import React from 'react';
 export default function About() {
   return (
     <div>
-      <h1>About Page</h1>
+      <h1>About Me</h1>
       <p>
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-        Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-        mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-        lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-        imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-        in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
+      I am a Web Developer with a background in graphic design, retail
+          management and spent a formative year as a longterm substitute science
+          teacher in a Catholic high school. I love science, reading, spending
+          time with my family and friends,
+          <i>The Real Housewives of Beverly Hills</i> and <i>Harry Potter</i>. I
+          am a plant mom and hedgehog mom to my angel, Ginger. I love music,
+          anything from Led Zeppelin to A Tribe Called Quest and my favorite tv
+          shows include:
+            <i>New Girl,</i>
+            <i>Scrubs,</i>
+            and
+            <i>Keeping Up with the Kardashians.</i>
       </p>
     </div>
   );
