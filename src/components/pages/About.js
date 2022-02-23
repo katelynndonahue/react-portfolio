@@ -1,4 +1,6 @@
 import React from 'react';
+import Headshot from '../assets/Headshot.js';
+import '../assets/styles/Headshot.css';
 
 export default function About() {
   return (

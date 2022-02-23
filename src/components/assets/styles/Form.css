@@ -1,0 +1,9 @@
+form{
+    background-color: #7c5b8a;
+    padding: 1rem;
+    text-align: center;
+  }
+  #submit-btn{
+    background-color: #b2cd66;
+    color: black;
+  }

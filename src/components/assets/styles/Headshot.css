@@ -1,15 +1,15 @@
-import profPic from './images/Headshot.png';
-import React from 'react';
-import './images/Headshot.css';
-
-function Headshot() {
-  return (
-    <div className='container'>
-      <div className='row center head-row'>
-    <img src = {profPic} alt="headshot"></img>
-    </div>
-    </div>
-  );
+.container{
+  margin-top: 5rem;
 }
-
-export default Headshot;
+img {
+  height: 25rem;
+  image-rendering: auto;
+  image-rendering: crisp-edges;
+  image-rendering: pixelated;
+  image-rendering: -webkit-optimize-contrast;
+}
+.about-me{
+  background-color: #5a4c68;
+  text-align: center;
+  align-items: center;
+}
