@@ -6,7 +6,7 @@ export default function Contact() {
       <h1>Contact Me</h1>
       <p>
         <ul>
-          <a href="./images/Katelynn_Donahue_Resume.pdf" target="_blank">
+          <a href="https://katelynndonahue.github.io/My-Portfolio/assets/images/Katelynn_Donahue_Resume.pdf" target="_blank">
             {" "}
             Resume{" "}
           </a>
