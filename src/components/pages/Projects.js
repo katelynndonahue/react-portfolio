@@ -1,30 +1,31 @@
 import React from 'react';
 import Card from '../layout/Cards';
+import '../assets/styles/Project.css';
 
 const projects = [
   {
-    name: "project1",
-    description: "something something",
-    link: "",
-    github: ""
+    name: "Project 1",
+    description: "My New Best Friend",
+    link: "https://katelynndonahue.github.io/my-new-best-friend/",
+    github: "https://github.com/katelynndonahue/my-new-best-friend"
   },
   {
-    name: "project2",
-    description: "something else",
-    link: "",
-    github: ""
+    name: "Project 2",
+    description: "Podcast 411",
+    link: "https://obscure-tor-30961.herokuapp.com/",
+    github: "https://github.com/katelynndonahue/Podcast411"
   },
   {
-    name: "project3",
-    description: "something new",
-    link: "",
-    github: ""
+    name: "Project 3",
+    description: "Code Quiz",
+    link: "https://katelynndonahue.github.io/Code-Quiz/",
+    github: "https://github.com/katelynndonahue/Code-Quiz"
   },
   {
-    name: "project4",
-    description: "something different",
-    link: "",
-    github: ""
+    name: "Project 4",
+    description: "Code Quiz",
+    link: "https://katelynndonahue.github.io/Weather-Dashboard/",
+    github: "https://github.com/katelynndonahue/Weather-Dashboard"
   },
 ]
 

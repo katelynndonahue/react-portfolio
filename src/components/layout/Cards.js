@@ -5,7 +5,7 @@ import React from 'react';
 const styles = {
   card: {
     margin: 20,
-    background: '#e8eaf6',
+    background: '#e8eaf5',
   },
   heading: {
     background: '#3f51b5',

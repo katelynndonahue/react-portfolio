@@ -1,11 +1,21 @@
-import React from 'react';
+import React ,{useState} from 'react';
 import Headshot from '../assets/Headshot.js';
 import '../assets/styles/Headshot.css';
 
 export default function About() {
   return (
+
+    <div className='container'>
     <div>
+    <Headshot />
+    </div>
+    <div className='section'>
+        <div className='row'>
+          <div className='col s12 center about-me'></div>
       <h1>About Me</h1>
+      <div className="pic">
+				<img src={Headshot} alt="profile picture" />
+				<div className="intro"></div>
       <p>
       I am a Web Developer with a background in graphic design, retail
           management and spent a formative year as a longterm substitute science
@@ -21,5 +31,8 @@ export default function About() {
             <i>Keeping Up with the Kardashians.</i>
       </p>
     </div>
+    </div>
+    </div>
+    </div>
   );
-}
+  }
