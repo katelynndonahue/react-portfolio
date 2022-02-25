@@ -2,11 +2,12 @@
   margin-top: 5rem;
 }
 img {
-  height: 25rem;
+  height: 20rem;
   image-rendering: auto;
   image-rendering: crisp-edges;
   image-rendering: pixelated;
   image-rendering: -webkit-optimize-contrast;
+  
 }
 .about-me{
   background-color: #5a4c68;

@@ -32,6 +32,9 @@ function Card({project}) {
       <div style={styles.content}>
         {description}
       </div>
+      <a href = { link }>deployed</a>
+      <br></br>
+      <a href = { github }>repo</a>
     </div>
   );
 }

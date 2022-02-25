@@ -1,19 +1,23 @@
 import React from "react";
-import Headshot from "../assets/Headshot.js";
-import "../assets/styles/Headshot.css";
+// import Headshot from "../assets/Headshot.js";
+// import "../assets/styles/Headshot.css";
+import Headshot from "./../images/Headshot.png"
 
-export default function About() {
+
+export default function Home() {
   return (
     <div className="container">
-      <div></div>
+      <div>
+      {/* <img src={ Headshot } alt ="Placeholder image"/>  */}
+      </div>
       <div className="section">
         <div className="row">
           <div className="col s12 center about-me"></div>
           <h1>About Me</h1>
-          <br></br>
-          <div className="pic">
-            {/* <img src={Headshot} alt="profile picture" /> */}
+          <div className="img">
+            <img src={Headshot} alt="" />
             <div className="intro"></div>
+            <center>
             <p>
               I am a Web Developer with a background in graphic design, retail
               management and spent a formative year as a longterm substitute
@@ -28,6 +32,7 @@ export default function About() {
               and
               <i>Keeping Up with the Kardashians.</i>
             </p>
+            </center>
           </div>
         </div>
       </div>

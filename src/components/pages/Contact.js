@@ -1,10 +1,12 @@
 import React from "react";
 import '../assets/styles/Form.css';
+import Form from './../layout/Form';
 
 export default function Contact() {
   return (
     <div>
       <h1>Contact Me</h1>
+      <Form />
       <p>
         <ul>
           <a href="https://katelynndonahue.github.io/My-Portfolio/assets/images/Katelynn_Donahue_Resume.pdf" target="_blank">
