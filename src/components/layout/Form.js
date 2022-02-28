@@ -55,7 +55,7 @@ function Form() {
 
   return (
     <div>
-      <p>Hello {userName}</p>
+      <p>I would love to connect! {userName}</p>
       <form className="form">
         <input
           value={email}
@@ -76,7 +76,7 @@ function Form() {
           name="password"
           onChange={handleInputChange}
           type="password"
-          placeholder="Password"
+          placeholder="Shoot me a message!"
         />
         <br></br>
         <button className="btn" type="button" onClick={handleFormSubmit}>Submit</button>

@@ -9,11 +9,11 @@ export default function About() {
       <div className="section">
         <div className="row">
           <div className="col s12 center about-me"></div>
-          <h1>About Me</h1>
           <br></br>
           <div className="pic">
             {/* <img src={Headshot} alt="profile picture" /> */}
             <div className="intro"></div>
+            <h3>About Me</h3>
             <p>
               I am a Web Developer with a background in graphic design, retail
               management and spent a formative year as a longterm substitute
@@ -23,10 +23,9 @@ export default function About() {
               <i>Harry Potter</i>. I am a plant mom and hedgehog mom to my
               angel, Ginger. I love music, anything from Led Zeppelin to A Tribe
               Called Quest and my favorite tv shows include:
-              <i>New Girl,</i>
-              <i>Scrubs,</i>
-              and
-              <i>Keeping Up with the Kardashians.</i>
+              <i> New Girl, </i>
+              <i>Scrubs, </i>
+              and <i> Keeping Up with the Kardashians.</i>
             </p>
           </div>
         </div>
