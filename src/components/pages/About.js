@@ -4,6 +4,7 @@ import "../assets/styles/Headshot.css";
 
 export default function About() {
   return (
+    <center>
     <div className="container">
       <div></div>
       <div className="section">
@@ -31,5 +32,6 @@ export default function About() {
         </div>
       </div>
     </div>
+    </center>
   );
 }
